@@ -1,0 +1,327 @@
+<%@ Master Language="C#" AutoEventWireup="true" %>
+<asp:ContentPlaceHolder runat="server" ID="MainContent" />
+
+<!DOCTYPE html>
+<html lang="en-us" class="no-js">
+    <head><meta charset="utf-8" /><meta name="viewport" content="width=device-width, initial-scale=1.0" />
+        <!-- BEGIN_REMOVE|metaTags  -->
+        <meta id="ctl00_cmsMetaKeywords" name="keywords" content="" /><meta id="ctl00_cmsMetaDescriptions" name="description" content="" />
+
+        <!-- END_REMOVE|metaTags  -->
+
+        <!-- BEGIN_REMOVE|htmlTitle  -->
+        <title>
+	Health 7.1 Template: ColdFusion - USF Health - USF Health - Tampa, Florida
+</title>
+        <!-- END_REMOVE|htmlTitle  -->
+
+        
+        <link rel="stylesheet" href="http://health.usf.edu/cms_author/docs/masterpages/7.1/styles/health.css?v=3">
+        <link media="print" type="text/css" rel="stylesheet" href="/cms_author/docs/masterpages/7.1/styles/print.css" />
+        <!-- BEGIN_REMOVE|customCss  -->
+        
+<style id="ctl00_myCSSInline" type="text/css"></style>
+        <!-- END_REMOVE|customCss  -->
+
+        <!-- BEGIN_REPLACE|htmlHeadContent -->
+        
+        <!-- END_REPLACE|htmlHeadContent -->
+
+        <!--[if lt IE 9]>
+        <script type="text/javascript" src="/cms_author/docs/masterpages/7.1/scripts/respond.min.js"></script>
+        <![endif]-->
+
+        <script type="text/javascript" src="/cms_author/docs/masterpages/7.1/scripts/modernizr.js"></script>
+        
+        <!-- BEGIN_REPLACE|AnalyticsForServer -->
+        <script>
+            (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
+            (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
+            m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
+            })(window,document,'script','//www.google-analytics.com/analytics.js','ga');
+
+            ga('create', 'UA-4198073-1', 'auto');
+            ga('require', 'displayfeatures');
+            ga('send', 'pageview');
+        </script>
+        <!-- END_REPLACE|AnalyticsForServer -->
+        </head>
+    <body id="ctl00_body">
+        <!-- Google Tag Manager -->
+        <noscript><iframe src="//www.googletagmanager.com/ns.html?id=GTM-PK7P"
+        height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
+        <script>(function(w,d,s,l,i){w[l]=w[l]||[];w[l].push({'gtm.start':
+        new Date().getTime(),event:'gtm.js'});var f=d.getElementsByTagName(s)[0],
+        j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
+        '//www.googletagmanager.com/gtm.js?id='+i+dl;f.parentNode.insertBefore(j,f);
+        })(window,document,'script','dataLayer','GTM-PK7P');</script>
+        <!-- End Google Tag Manager -->
+
+
+        <!-- BEGIN_REMOVE|cmsAspNetFormStart -->
+        <form name="aspnetForm" method="post" action="Basic7-1.aspx?NRMODE=Published&amp;NRNODEGUID=%7bB8C96302-15BD-4366-BB0E-105601937723%7d&amp;NRORIGINALURL=%2fcftemplate7_1.html&amp;NRCACHEHINT=NoModifyGuest" id="aspnetForm">
+<input type="hidden" name="__VIEWSTATE" id="__VIEWSTATE" value="/wEPDwUJODI0NDkwMzI2D2QWAmYPZBYEAgEPZBYEAgMPFgIeB2NvbnRlbnRlZAIEDxYCHwBlZAIDD2QWAgIBD2QWCgIFD2QWBAIBD2QWAmYPFgIeBFRleHQFXTxuYXYgY2xhc3M9ImRlcHQtY3J1bWIiPjx1bD48bGk+PGEgY2xhc3M9Imljb24taG9tZSAiIGhyZWY9Ii8iPlVTRiBIZWFsdGg8L2E+PC9saT48L3VsPjwvbmF2PmQCAw8WAh8BBRM8aDE+VVNGIEhlYWx0aDwvaDE+ZAIPDw8WAh4HVmlzaWJsZWhkZAIRDxYCHwEFQzxzcGFuIGlkPSJtb2RpZmllZCI+VGhpcyBwYWdlIHdhcyBsYXN0IG1vZGlmaWVkIG9uIDQvMzAvMjAxMzwvc3Bhbj5kAhcPFgIfAmhkAhkPFgIfAmhkZPW+4iE6UFNBTIpXiJ48FZ/KnN7x" />
+
+
+<script language="javascript" type="text/javascript">
+<!--
+   var __CMS_PostbackForm = document.forms['aspnetForm'];
+   var __CMS_CurrentUrl = "/cms_author/docs/Templates/basic7/Basic7-1.aspx?NRMODE=Published&NRNODEGUID=%7bB8C96302-15BD-4366-BB0E-105601937723%7d&NRORIGINALURL=%2fcftemplate7_1%2ehtml&NRCACHEHINT=NoModifyGuest";
+// -->
+</script>
+
+
+        <!-- END_REMOVE|cmsAspNetFormStart -->
+
+            <header id="health-header">
+                <div id="health-header-inner" class="fixed-content">
+                    
+
+<nav class="health-links menu-hidden">
+    <button class="hide-text icon-reorder" id="health-menu-toggle">Menu</button>
+    <ul>
+        <li><a href="http://health.usf.edu/news.html">News</a></li>
+        <li><a href="http://health.usf.edu/education.html">Education</a></li>
+        <li><a href="http://health.usf.edu/research/home.html">Research</a></li>
+        <li><a href="http://health.usf.edu/doctors/">Patient Care</a></li>
+    </ul>
+</nav>
+                    
+
+<nav class="usf-links">
+    <ul>
+        <li><a href="http://health.usf.edu" class="icon-home">USF Health</a></li>
+        <li><a href="http://www.usf.edu">USF</a></li>
+        <li><a href="http://search.usf.edu/search?btnG=USF+Health+Search&amp;access=p&amp;btng=Search&amp;client=health&amp;proxystylesheet=health&amp;output=xml_no_dtd&amp;sort=date%3AD%3AL%3Ad1&amp;oe=UTF-8&amp;ie=UTF-8&amp;ud=1&amp;exclude_apps=1&amp;site=health">Search</a></li>
+    </ul>
+</nav>
+                </div>
+            </header>
+
+            <header id="dept-header" class="fixed-content">
+                <a href="http://health.usf.edu" class="hide-text" id="health-logo">USF Health</a>
+                <!-- BEGIN_REPLACE|header -->
+                
+                    <nav class="dept-crumb"><ul><li><a class="icon-home " href="/">USF Health</a></li></ul></nav>
+                    <h1>USF Health</h1>
+                
+                <!-- END_REPLACE|header -->
+
+                
+                    <div class="template-options">
+                        <span id="template-print" class="hide-text icon-print" title="Print Friendly">Print Friendly</span>
+                    </div>
+                
+            </header>
+
+            <!-- BEGIN_REMOVE|horizontalNavigation -->
+            
+
+            <!-- END_REMOVE|horizontalNavigation -->
+            <!-- TEST -->
+            <section id="content" class="fixed-content">
+                <!-- BEGIN_REPLACE|content -->
+                
+
+                <!-- END_REPLACE|content -->
+            </section>
+
+            <footer id="dept-footer">
+                <div class="fixed-content">
+                    <div class="left">
+                        <section class="vCard">
+                            <img src="/cms_author/docs/masterpages/7.1/images/usf-wordmark.png" alt="University of South Florida" />
+                            <!-- BEGIN_REPLACE|footer  -->
+                            
+
+                            
+                            <!-- END_REPLACE|footer  -->
+                        </section>
+
+                        <span id="modified">This page was last modified on 4/30/2013</span>
+                        <div id="credits">
+                            <a href="http://health.usf.edu/is"><img src="http://health.usf.edu/cms_author/docs/masterpages/health_corp/images/health_is.png" width="62" height="62" alt="USF Health Information Systems"/></a>
+                            <a href="http://health.usf.edu/is" id="powered">Powered and Designed by<br />
+                            USF Health Information Systems</a>
+                        </div>
+                    </div>
+                    
+                    <nav>
+                        <h1>USF Health</h1>
+                        <ul>
+                            <li><a href="http://health.usf.edu/about.html">About</a></li>
+                            <li><a href="http://health.usf.edu/VP/leadership/">Health Leadership</a></li>
+                            <li><a href="http://regulationspolicies.usf.edu/regulations-and-policies/regulations-policies-procedures.asp" target="_blank">Regulations &amp; Policies</a></li>
+                            <li><a href="http://hscweb3.hsc.usf.edu/health/now/?p=6237">Comm. Engagement</a></li>
+                            <li><a href="http://health.usf.edu/international/index.html">International Programs</a></li>
+                            <li><a href="http://hsc.usf.edu/publicaffairs/index.html">Media/Communications</a></li>
+                            <li><a href="http://health.usf.edu/maps_directions/index.htm">Maps/Directions</a></li>
+                            <li><a href="http://health.usf.edu/nocms/giving/">Giving</a></li>
+                            <li><a href="http://hscweb3.hsc.usf.edu/calendar/index.php?calendar=1&amp;v=m">Calendars</a></li>
+                            <li><a href="http://health.usf.edu/publicaffairs/logos_templates.html">Brand Standards</a></li>
+                            <li><a href="http://health.usf.edu/25live/">25 Live</a></li>
+                            <li><a href="http://cloudmail.health.usf.edu" target="_blank">Web E-mail</a></li>
+                            <li><a href="http://www.usf.edu/downtown/" target="_blank">USF Health Downtown</a></li>                            
+                        </ul>
+                    </nav>
+                    <nav>
+                        <h1>Education</h1>
+                        <h2>Colleges</h2>
+                        <ul>
+                            <li><a href="http://health.usf.edu/medicine/">Medicine</a></li>
+                            <li><a href="http://health.usf.edu/nursing/">Nursing</a></li>
+                            <li><a href="http://health.usf.edu/publichealth/">Public Health</a></li>
+                            <li><a href="http://health.usf.edu/pharmacy/">Pharmacy</a></li>
+                        </ul>
+                        <h2>Schools</h2>
+                        <ul>
+                            <li><a href="http://health.usf.edu/medicine/dpt/index.htm">Physical Therapy</a></li>
+                            <li><a href="http://gradaffairs.health.usf.edu/">Biomedical Sciences</a></li>
+                        </ul>
+                        <h2>More</h2>
+                        <ul>
+                            <li><a href="http://library.hsc.usf.edu/" target="_blank">Shimberg Library</a></li>
+                            <li><a href="http://health.usf.edu/alumni/">Alumni</a></li>
+                            <li><a href="http://www.cme.hsc.usf.edu/" target="_blank">Cont. Prof. Development</a></li>
+                            <li><a href="http://health.usf.edu/ahec/index.htm">AHEC</a></li>
+                        </ul>
+                    </nav>
+                    <nav>
+                        <h1>Research</h1>
+                        <ul>
+                            <li><a href="http://health.usf.edu/research/home.html">USF Health</a></li>
+                            <li><a href="http://health.usf.edu/medicine/research/home.html">Medicine</a></li>
+                            <li><a href="http://health.usf.edu/nursing/research/Info.html">Nursing</a></li>
+                            <li><a href="http://health.usf.edu/publichealth/officeresearch/index.htm">Public Health</a></li>
+                            <li><a href="http://health.usf.edu/pharmacy/research/index.htm">Pharmacy</a></li>
+                        </ul>
+                        <h2>More</h2>
+                        <ul>
+                            <li><a href="http://health.usf.edu/medicine/research/ocr/index.htm">Clinical Research</a></li>
+                            <li><a href="http://hsccf.hsc.usf.edu/researchdirectory/directorysearch/search.cfm">Research Directory</a></li>
+                            <li><a href="http://www.centerwatch.com/UniversityOfSouthFlorida" target="_blank">Clinical Studies</a></li>
+                        </ul>
+                    </nav>
+                    <nav>
+                        <h1>Healthcare</h1>
+                        <h2>Healthcare</h2>
+                        <ul>
+                            <li><a href="http://health.usf.edu/doctors/">Doctors of USF Health</a></li>
+                        </ul>
+                        <h2>Service</h2>
+                        <ul>
+                            <li><a href="http://health.usf.edu/admin/hr/">Human Resources</a></li>
+                            <li><a href="http://health.usf.edu/is/home.htm">Information Systems</a></li>
+                            <li><a href="http://health.usf.edu/pio/index.htm">Professional Integrity</a></li>
+                            <li><a href="http://health.usf.edu/facultyaffairs/index.htm">Faculty Affairs</a></li>
+                            <li><a href="http://health.usf.edu/ofm/index.htm">Facilities Management</a></li>
+                            <li><a href="http://www.paperfreeflorida.org/" target="_blank">PaperFree Florida</a></li>
+                        </ul>
+                    </nav>
+                    
+                </div>
+            </footer>
+            <footer id="health-footer">
+                <div class="fixed-content">
+                    <h3>USF Health:</h3>
+                    <nav>
+                        <ul>
+                            <li><a href="http://health.usf.edu">Home</a></li>
+                            <li><a href="http://health.usf.edu/about.html">About</a></li>
+                            <li><a href="http://health.usf.edu/news.html">News</a></li>
+                            <li><a href="http://health.usf.edu/social_media.html">Social Media</a></li>
+                        </ul>
+                    </nav>
+                    <h3>For You:</h3>
+                    <nav>
+                        <ul>
+                            <li><a href="http://health.usf.edu/nocms/myhealthcare/">Patients</a></li>
+                            <li><a href="http://health.usf.edu/students.html">Students</a></li>
+                            <li><a href="http://health.usf.edu/faculty_staff.html">Faculty &amp; Staff</a></li>
+                            <li><a href="http://health.usf.edu/alumni/">Alumni</a></li>
+                        </ul>
+                    </nav>
+                </div>
+            </footer>
+
+            <!-- BEGIN_REMOVE|cmsControls  -->
+            
+
+            
+            <!-- END_REMOVE|cmsControls -->
+
+            <!-- BEGIN_REPLACE|jquery -->
+            <script type="text/javascript" src="//ajax.googleapis.com/ajax/libs/jquery/1.8.3/jquery.min.js"></script>
+            <script>window.jQuery || document.write('<script src="/cms_author/docs/masterpages/7.1/scripts/jquery.min.js"><\/script>')</script>
+            <!-- END_REPLACE|jquery -->
+
+            <script type="text/javascript" src="/cms_author/docs/masterpages/7.1/scripts/template.min.js?v=1"></script>
+
+            <!-- BEGIN_REPLACE|customJS  -->
+            <script type="text/javascript" src="//ajax.googleapis.com/ajax/libs/swfobject/2.2/swfobject.js"></script>
+            <script type="text/javascript" src="/cms_author/docs/masterpages/7.1/scripts/plugins.min.js?v=5"></script>
+            
+
+            
+            <!-- END_REPLACE|customJS -->
+
+        <!-- BEGIN_REMOVE|cmsAspNetFormEnd -->
+        
+
+<!-- Generated by Microsoft.ContentManagement.WebControls.Console to reset form.action -->
+<SCRIPT type="text/javascript">
+<!--
+
+    var __CMS_PostbackFormBeenReset = false;
+
+    function __cmsRestFormAction()
+    {
+        if ( !__CMS_PostbackFormBeenReset )
+        {
+            // set form postback Url to be current translated CMS Url
+            __CMS_PostbackForm.action = __CMS_CurrentUrl;
+        }
+    }
+
+    var __cmsResetFormCachedPostBack = null;
+    if( typeof window.__doPostBack != "undefined" )
+    {
+        __cmsResetFormCachedPostBack = __doPostBack;
+        __doPostBack = __cmsResetFormOverridePostBack;
+    }
+
+    var __cmsResetFormCachedOnSubmit = null;
+    if( typeof __CMS_PostbackForm.onsubmit != "undefined" )
+    {
+        __cmsResetFormCachedOnSubmit = __CMS_PostbackForm.onsubmit;
+        __CMS_PostbackForm.onsubmit = __cmsResetFormOverrideOnSubmit;
+    }
+    else
+    {
+        __cmsResetFormCachedOnSubmit = null;
+        __CMS_PostbackForm.onsubmit = __cmsResetFormOverrideOnSubmit;
+    }
+
+    function __cmsResetFormOverridePostBack( eventTarget, eventArgument )
+    {
+        __cmsRestFormAction();
+        __cmsResetFormCachedPostBack( eventTarget, eventArgument );
+    }
+
+    function __cmsResetFormOverrideOnSubmit()
+    {
+        __cmsRestFormAction();
+        if (__cmsResetFormCachedOnSubmit != null)
+            return __cmsResetFormCachedOnSubmit();
+        else
+            return true;
+    }
+// -->
+</SCRIPT>
+
+
+</form>
+        <!-- END_REMOVE|cmsAspNetFormEnd -->
+    </body>
+</html>
+                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                               

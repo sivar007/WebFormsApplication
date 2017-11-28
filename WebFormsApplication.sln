@@ -1,0 +1,26 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 2012
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "WebFormsApplication", "WebFormsApplication\WebFormsApplication.csproj", "{39102464-06D7-4C88-80D1-232A4A006BD8}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ClassLibrary", "..\DepartmentService\ClassLibrary\ClassLibrary.csproj", "{FDCB7624-717E-4814-A2BF-0A3C7E948B33}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{39102464-06D7-4C88-80D1-232A4A006BD8}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{39102464-06D7-4C88-80D1-232A4A006BD8}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{39102464-06D7-4C88-80D1-232A4A006BD8}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{39102464-06D7-4C88-80D1-232A4A006BD8}.Release|Any CPU.Build.0 = Release|Any CPU
+		{FDCB7624-717E-4814-A2BF-0A3C7E948B33}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{FDCB7624-717E-4814-A2BF-0A3C7E948B33}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{FDCB7624-717E-4814-A2BF-0A3C7E948B33}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{FDCB7624-717E-4814-A2BF-0A3C7E948B33}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+EndGlobal
