@@ -1,0 +1,28 @@
+﻿<%@ Master Language="C#" AutoEventWireup="true" CodeBehind="MasterPage.master.cs" Inherits="ClassLibrary.MasterPage" %>
+
+<!DOCTYPE html>
+<html lang="en">
+<head runat="server">
+    <title><%: Page.Title %> - USF Health</title>       
+    <asp:ContentPlaceHolder runat="server" ID="HeadContent" />
+    <style>
+        .bordered {border-style:dotted;}
+    </style>
+</head>
+<body>
+    <header class="bordered">
+        <div class="content-wrapper">          
+            <h1>USF Health Global Departments</h1>
+            <asp:ContentPlaceHolder runat="server" ID="HeaderContent" />
+        </div>
+    </header>
+    <div id="body" class="bordered">
+        <section class="content-wrapper main-content clear-fix">
+            <asp:ContentPlaceHolder runat="server" ID="MainContent" />
+        </section>
+    </div>
+    <footer class="bordered">
+        <asp:ContentPlaceHolder runat="server" ID="FooterContent" />
+    </footer>    
+</body>
+</html>
